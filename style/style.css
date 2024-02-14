@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Regular.ttf");
+}
+@font-face {
+  font-family: "KarlaB";
+  src: url("../fonts/Karla-Bold.ttf");
+}
+*,
+*::before,
+*::after {
+  margin: inherit;
+  padding: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html body {
+  font-family: "KarlaB";
+  background-color: hsl(204, 43%, 93%);
+  color: white;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+html body .container {
+  width: 83%;
+  padding: 0.7rem;
+  border-radius: 0.375rem;
+}
+@media screen and (min-width: 575px) {
+  html body .container {
+    width: 560px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+  }
+}
+html body .container p {
+  font-family: "KarlaB";
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6rem;
+}
+html body .container .join {
+  grid-column: 1/3;
+  background-color: white;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+html body .container .join h2 {
+  color: hsl(179, 62%, 43%);
+  margin-top: 0.375rem;
+}
+html body .container .join h3 {
+  color: hsl(71, 73%, 54%);
+  line-height: 1.2rem;
+}
+html body .container .join p {
+  margin-bottom: 0.5rem;
+}
+html body .container .pay {
+  background-color: hsl(179, 62%, 43%);
+}
+@media screen and (min-width: 575px) {
+  html body .container .pay {
+    border-bottom-left-radius: 0.375rem;
+  }
+}
+html body .container .pay h2 {
+  font-size: 1.1rem;
+}
+html body .container .pay div {
+  margin: 0.3rem 0.3rem 0rem 0.42rem;
+  padding: 0;
+}
+html body .container .pay div h3 {
+  font-size: 1.9rem;
+  display: inline-block;
+}
+html body .container .pay div span {
+  font-family: "Karla";
+  font-size: 1rem;
+}
+html body .container .pay p {
+  margin: 0.2rem 0.8rem 0;
+  padding: 0;
+  font-size: 0.93rem;
+  color: rgba(255, 255, 255, 0.7725490196);
+}
+html body .container .pay button {
+  background-color: hsl(71, 73%, 54%);
+  color: inherit;
+  border: none;
+  outline: none;
+  width: 91%;
+  margin: 1.6rem 0.8rem 1rem;
+  padding: 0.94rem;
+  border-radius: 0.4rem;
+}
+html body .container .pay button a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+html body .container .why {
+  background-color: #51d6d4;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+html body .container .why h2 {
+  font-size: 1.2rem;
+}
+html body .container .why p {
+  color: rgba(255, 255, 255, 0.7725490196);
+  font-family: "Karla";
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  padding-top: 0.52rem;
+}/*# sourceMappingURL=style.css.map */
